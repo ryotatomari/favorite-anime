@@ -12,7 +12,6 @@ import jp.co.planaria.favoriteanime.entity.Anime;
 /**
  * アニメ画面を制御するコントローラー
  * @author tomariryuuta
- *
  */
 @Controller//DIにcontrollerとして登録
 public class AnimeContoroller {
