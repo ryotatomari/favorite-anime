@@ -24,7 +24,7 @@ public class Anime {
 	public void setTitleNo(int titleNo) {
 		this.titleNo = titleNo;
 	}
-	public String getTitele() {
+	public String getTitle() {
 		return title;
 	}
 	public void setTitle(String title) {
