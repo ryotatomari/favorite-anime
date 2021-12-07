@@ -29,8 +29,8 @@
 			<tr th:each="anime : ${animes}">
 			<!-- コピー貼り付け元　th:text="${fruit.cd}" -->
 				<th th:text="${anime.titleNo}"scope="row"></th>
-			<!--	<td th:text="${anime.title}"></td>
-				<td th:text="${anime.memo}"></td> -->
+				<td>th:text="${anime.title}"</td>
+				<td>th:text="${anime.memo}"</td>
 			</tr>
 		</tbody>
 	</table>

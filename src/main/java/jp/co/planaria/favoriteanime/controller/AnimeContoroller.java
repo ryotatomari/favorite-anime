@@ -14,15 +14,15 @@ import jp.co.planaria.favoriteanime.entity.Anime;
  * @author tomariryuuta
  *
  */
-@Controller
+@Controller//DIにcontrollerとして登録
 public class AnimeContoroller {
 	
 	@RequestMapping("/list")
 	public String list(Model model) {
 		List<Anime>animes = new ArrayList<Anime>();
 		
-		Anime tensura = new Anime(1,"転すら","スライム");
-		Anime kimetsu = new Anime(2,"キメツの刃","鬼出る");
+		Anime tensura = new Anime(1, "転すら", "スライム");
+		Anime kimetsu = new Anime(2, "キメツの刃", "鬼出る");
 		
 		animes.add(tensura);
 		animes.add(kimetsu);
